@@ -24,8 +24,6 @@ weatherForm.addEventListener('submit', (e) => {
 })
 
 
-
-
 // console.log('Client side javascript side is loaded')
 //fetch is not javascript, its a browser command
 // fetch('http://puzzle.mead.io/puzzle').then((response) => {

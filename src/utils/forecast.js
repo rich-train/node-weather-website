@@ -17,7 +17,9 @@ const forecast = (latitude, longtitude, callback) => {
                 '  The time is ' + time.format("h:mm:ss a") +
                 '. It is currently ' + body.currently.temperature +
                 ' degress out.  There is a ' + body.currently.precipProbability +
-                '% chance of rain.  Humidity is ' + body.daily.data[0].humidity)
+                '% chance of rain.  Humidity is ' + body.daily.data[0].humidity +
+                '. The high today is ' + body.daily.data[0].temperatureHigh +
+                ' with a low of ' + body.daily.data[0].temperatureLow + '.')
         }
     })
 }

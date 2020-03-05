@@ -1,5 +1,3 @@
-// console.log('Client side javascript side is loaded')
-
 const weatherForm = document.querySelector('form')
 const searchElement = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
@@ -28,6 +26,7 @@ weatherForm.addEventListener('submit', (e) => {
 
 
 
+// console.log('Client side javascript side is loaded')
 //fetch is not javascript, its a browser command
 // fetch('http://puzzle.mead.io/puzzle').then((response) => {
 //     response.json().then((data) => {
